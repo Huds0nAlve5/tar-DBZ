@@ -1,0 +1,7 @@
+<input type='radio' value='atributo' name='atributo'>Atributo
+
+var atributos = ....getelementbuname('atributo')
+
+for(var i = 0; i < atributos.lenght; i++)
+	if(atributos[i].checked)
+		combate(atributos[i].value)
